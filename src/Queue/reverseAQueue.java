@@ -23,15 +23,6 @@ public class reverseAQueue {
             q.add(st.pop());
         }
     }
-    public static void StackReverse(Queue<Integer> q,int k){
-        Stack <Integer> st=new Stack<>();
-        while(q.size()>k){
-            st.push(q.poll());
-        }
-        while(!st.isEmpty()){
-            q.add(st.pop());
-        }
-    }
     public static void main(String[] args) {
         Queue<Integer> q=new LinkedList<>();
         q.add(1);
@@ -43,7 +34,7 @@ public class reverseAQueue {
         reverse(q);
 
         System.out.println(q);//reverse the values
-        StackReverse(q,3);
+        StackReverse(q);
         System.out.println(q); //it again reverses the values
     }
 }
