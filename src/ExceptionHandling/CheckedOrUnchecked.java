@@ -1,4 +1,4 @@
-package oops.ExceptionHandling;
+package ExceptionHandling;
 
 public class CheckedOrUnchecked  {
     //in compile time exception system don't either compile code or not execute  it

@@ -1,4 +1,4 @@
-package oops.ExceptionHandling;
+package ExceptionHandling;
 
 public class CustomClass {
 //this is achieved by throw keyword

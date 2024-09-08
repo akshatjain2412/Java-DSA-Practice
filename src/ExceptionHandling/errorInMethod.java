@@ -1,4 +1,4 @@
-package oops.ExceptionHandling;
+package ExceptionHandling;
 
 public class errorInMethod {
     public static void main(String[] args) {
